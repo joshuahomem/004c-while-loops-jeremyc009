@@ -21,5 +21,5 @@ num=float(input("Enter a number: "))
 while num!=(num*13):
     mult=mult+1
     print(num*mult)
-    if mult==12:
+    if mult==11:
         break
