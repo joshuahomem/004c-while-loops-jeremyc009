@@ -25,7 +25,7 @@ while uName!="admin" or pWord!="12345":
     count=count+1
     uName=input().strip
     pWord=input().strip
-    if count>1:
+    if count>2:
         break
 if uName=="admin" and pWord=="12345":
     print("Access granted")
