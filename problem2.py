@@ -15,3 +15,11 @@ example:
 Enter a number: 4
 4 8 12 16 20 24 28 32 36 40 44 48
 """
+mult=0
+num=float(input("Enter a number: "))
+
+while num!=(num*13):
+    mult=mult+1
+    print(num*mult)
+    if mult==12:
+        break

@@ -16,3 +16,11 @@ Example:
 10
 ...
 """
+name=0
+count=0
+while name!=20:
+    name=name+2
+    print(name)
+    count=count+1
+    if count>15:
+        break
