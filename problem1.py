@@ -21,7 +21,7 @@ count=0
 uName=input("Enter a username: ").strip
 pWord=input("Enter a password: ").strip
 while uName!="admin" or pWord!="12345":
-    print("Access denied")
+    print("Access denied.")
     count=count+1
     uName=input("Enter a username: ").strip
     pWord=input("Enter a password: ").strip
