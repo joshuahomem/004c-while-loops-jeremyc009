@@ -17,9 +17,9 @@ Enter a number: 4
 """
 mult=0
 num=int(input())
-
-while num!=(num*13):
+output=""
+while mult!=12:
     mult=mult+1
-    print(num*mult)
-    if mult==12:
-        break
+    output=output+(str(num*mult)+" ")
+    
+print(output)

@@ -17,14 +17,12 @@ outputs:
 Access granted
 Access denied
 """
-count=0
+count=1
 uName=(input("Enter a username: ").strip())
 pWord=(input("Enter a password: ").strip())
-while uName!="admin" or pWord!="12345":
+while (uName!="admin" or pWord!="12345") and count<2:
     print("Access denied")
     count=count+1
-    if count>2:
-        break
     uName=(input("Enter a username: ").strip())
     pWord=(input("Enter a password: ").strip())
 if uName=="admin" and pWord=="12345":

@@ -15,10 +15,11 @@ Example:
 """
 a=1 
 b=1
+output=""
 while b<100:
     c=a+b
-    print(c)
+    output=output+(str(c) + " ")
     a=b
     b=c
-    
+print(output)    
     
