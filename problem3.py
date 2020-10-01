@@ -18,8 +18,8 @@ b=1
 output=""
 while b<100:
     c=a+b
-    output=output+(str(c) + " ")
+    output= (output+(str(c) + " "))
     a=b
     b=c
-print(output)    
+print("1 1 " + output)    
     
