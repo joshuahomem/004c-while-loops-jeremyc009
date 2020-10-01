@@ -21,5 +21,5 @@ while uName!="admin" or pWord!= "12345":
     print("Access denied")
     uName=(input().strip())
     pWord=(input().strip())
-    if uName=="admin" and pWord=="12345":
-        print("Access granted")
+if uName=="admin" and pWord=="12345":
+    print("Access granted")
