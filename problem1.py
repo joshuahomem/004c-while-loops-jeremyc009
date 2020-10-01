@@ -21,7 +21,7 @@ count=1
 uName=(input().strip())
 pWord=(input().strip())
 while (uName!="admin" or pWord!="12345") and count<4:
-    print("Access denied")
+    print("Access denied.")
     count=count+1
     uName=(input().strip())
     pWord=(input().strip())
