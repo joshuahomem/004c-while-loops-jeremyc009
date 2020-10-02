@@ -13,13 +13,14 @@ after the number in the sequence is greater than 100:
 Example:
 1 1 2 3 5 ...
 """
-a=1 
+a=1
 b=1
-output=""
-while b<100:
+print(str(a)+" " ,end='')
+print(str(b)+" " ,end='')
+while True:
     c=a+b
-    output= (output+(str(c) + " "))
     a=b
     b=c
-print("1 1 " + output)    
-    
+    print(str(c)+" ", end='')
+    if c>100:
+        break
